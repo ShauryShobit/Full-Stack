@@ -1,6 +1,6 @@
 :root {
-    --yellow: #fffb00;
-    --black: #1f1e1e;
+    --yellow: yellow;
+    --black: black;
 }
 
 html {
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-image: url("./images/topography.svg"), linear-gradient(110deg, #f9783d, #7a4ef5);
+    background-image: url("Extras/topography.svg"), linear-gradient(110deg, #f9783d, #7a4ef5);
     background-size: 340px, auto;
     min-height: calc(100vh - 100px);
     margin: 50px;
@@ -41,7 +41,7 @@ h6 {
     justify-content: center;
     align-items: center;
     border: 5px solid rgba(0, 0, 0, 0.03);
-    border-radius: 3px;
+    border-radius: 20px;
     font-size: 35px;
     background-color: var(--yellow);
 }
@@ -76,9 +76,10 @@ img {
 }
 
 .hero {
+    border-radius: 20px;
     grid-area: hero;
     min-height: 400px;
-    background: white url(images/taco.jpg);
+    background: white url(Extras/taco.jpg);
     background-size: cover;
     background-position: bottom right;
     padding: 50px;
@@ -94,6 +95,7 @@ img {
 }
 
 .cta {
+    border-radius: 20px;
     background: var(--yellow);
     display: grid;
     align-items: center;
@@ -119,6 +121,7 @@ img {
 }
 
 .menu ul {
+    border-radius: 20px;
     display: grid;
     grid-gap: 10px;
     padding: 0;
@@ -153,6 +156,7 @@ img {
     border: 1px solid white;
     text-align: center;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
 
 .feature .icon {
@@ -179,6 +183,7 @@ img {
 
 .gallery img {
     width: 100%;
+    border-radius: 20px;
 }
 
 .gallery h2 {
