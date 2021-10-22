@@ -43,7 +43,7 @@ body {
 }
 
 .wrapper:hover>.front-face {
-    transform: rotateY(-180deg);
+    transform: rotateX(-180deg);
 }
 
 .wrapper .card img {
@@ -58,11 +58,11 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .wrapper:hover>.back-face {
-    transform: rotateY(0deg);
+    transform: rotateX(0deg);
 }
 
 .wrapper .back-face img {
@@ -87,6 +87,7 @@ body {
 }
 
 .back-face ul a {
+    text-decoration: none;
     display: block;
     height: 40px;
     width: 40px;
@@ -104,4 +105,30 @@ body {
     color: #1cc7d0;
     border-color: #1cc7d0;
     background: linear-gradient(375deg, transparent, transparent);
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    line-height: 0px;
+    border-radius: 50%;
+    background: linear-gradient(375deg, #1cc7d0, #2ede98);
+    transition: all 0.5s ease;
+}
+
+.footer ul a {
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+}
+
+.footer ul a:hover {
+    text-align: center;
+    color: black;
+    border-color: white;
 }
