@@ -115,7 +115,7 @@ body {
     color: white;
     text-align: center;
     margin: 0px;
-    margin-top: 12%;
+    margin-top: 10%;
     line-height: 0px;
     border-radius: 50%;
     background: linear-gradient(375deg, #1cc7d0, #2ede98);
@@ -125,7 +125,7 @@ body {
 .footer ul a {
     color: white;
     text-decoration: none;
-    padding: 12%;
+    padding: 15px;
 }
 
 .footer ul a:hover {
